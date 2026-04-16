@@ -80,10 +80,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Output/")
 		)
 	)
 	(net 0 "")
@@ -197,7 +197,7 @@
 		(at 38.1 57.15 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K18"
+		(property "Reference" "SW18"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "d09e270d-422c-4e25-84dd-9c376c3e6309")
@@ -896,7 +896,7 @@
 		(at 19.05 38.1 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K12"
+		(property "Reference" "SW12"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "c75feec6-3f76-413e-90fc-c9f7225b68d2")
@@ -1595,7 +1595,7 @@
 		(at 19.05 57.15 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K17"
+		(property "Reference" "SW17"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "c93ca308-931c-44bd-8b7d-c53b89edab9f")
@@ -2294,7 +2294,7 @@
 		(at 19.05 19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K7"
+		(property "Reference" "SW7"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "8aa6851e-e01b-4874-9fd1-f8692076ba74")
@@ -2993,7 +2993,7 @@
 		(at 19.05 76.2 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K22"
+		(property "Reference" "SW22"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "30595da3-bb8e-4aee-82ad-88295293ebe4")
@@ -3692,7 +3692,7 @@
 		(at 38.1 19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K8"
+		(property "Reference" "SW8"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "6c12ca27-fae4-4dd8-8086-c1e99e5b0f56")
@@ -4391,7 +4391,7 @@
 		(at 0 19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K6"
+		(property "Reference" "SW6"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "23da932e-e321-4bc8-a1bd-f9a6ec8ef0c1")
@@ -5090,7 +5090,7 @@
 		(at 0 38.1 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K11"
+		(property "Reference" "SW11"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "8db60a66-ce25-44f0-bc9e-2e568a4de015")
@@ -5789,7 +5789,7 @@
 		(at 57.15 76.2 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K24"
+		(property "Reference" "SW24"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "d7c95a35-552d-4692-99ba-3697623899f2")
@@ -6488,7 +6488,7 @@
 		(at 38.1 -19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K28"
+		(property "Reference" "SW28"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "771f6bbe-747c-4c99-ac80-8e29ff541974")
@@ -7187,7 +7187,7 @@
 		(at 38.1 0 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K3"
+		(property "Reference" "SW3"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "4fc67fab-a3aa-4314-a11d-425996902b47")
@@ -7886,7 +7886,7 @@
 		(at 76.2 57.15 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K20"
+		(property "Reference" "SW20"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "ab5c9f8e-af73-42e0-88de-c69b39ec895e")
@@ -8585,7 +8585,7 @@
 		(at 57.15 38.1 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K14"
+		(property "Reference" "SW14"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "ba008aca-f505-4118-b980-33e65bdc42b6")
@@ -9284,7 +9284,7 @@
 		(at 57.15 0 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K4"
+		(property "Reference" "SW4"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "b9940f32-6333-43ee-8ea4-1ec1ee6fe352")
@@ -9983,7 +9983,7 @@
 		(at 57.15 -19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K29"
+		(property "Reference" "SW29"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "7c0ff470-46ef-4405-8dda-bfede50b2331")
@@ -10693,7 +10693,7 @@
 				)
 			)
 		)
-		(property "Value" "esp32row1"
+		(property "Value" "esp32row2"
 			(at 0 56.11 0)
 			(layer "F.Fab")
 			(uuid "ff99e8dd-22af-4a14-85da-fd96afd79ba1")
@@ -11155,7 +11155,7 @@
 		(at 19.05 0 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K2"
+		(property "Reference" "SW2"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "f193f89b-0011-4413-9e30-5e4330036c23")
@@ -11854,7 +11854,7 @@
 		(at 76.2 38.1 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K15"
+		(property "Reference" "SW15"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "0221ef34-748f-4b0f-a1b0-81e4a5ec41ec")
@@ -12553,7 +12553,7 @@
 		(at 57.15 19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K9"
+		(property "Reference" "SW9"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "26cf9e9c-2327-46bc-a64d-2aa86be81662")
@@ -13252,7 +13252,7 @@
 		(at 76.2 19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K10"
+		(property "Reference" "SW10"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "bc2c7d5a-5ab0-4971-aebb-7ab9e28f77d6")
@@ -13951,7 +13951,7 @@
 		(at 38.1 38.1 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K13"
+		(property "Reference" "SW13"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "1e7a4353-948b-4d17-b837-6a186956f836")
@@ -14650,7 +14650,7 @@
 		(at 0 0 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K1"
+		(property "Reference" "SW1"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "994bcc03-47c6-4b7a-b20f-c6a302a0c294")
@@ -15349,7 +15349,7 @@
 		(at 76.2 0 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K5"
+		(property "Reference" "SW5"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "52abf073-da89-405a-9d8d-c28a45f12014")
@@ -16048,7 +16048,7 @@
 		(at 0 76.2 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K21"
+		(property "Reference" "SW21"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "83de1588-fddf-4973-8be1-4941da454ef2")
@@ -16747,7 +16747,7 @@
 		(at 0 57.15 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K16"
+		(property "Reference" "SW16"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "742d0e0f-6f2d-450e-9528-eb79b9df879f")
@@ -17446,7 +17446,7 @@
 		(at 19.05 -19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K27"
+		(property "Reference" "SW27"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "05e17229-6f29-4fb7-96cb-4d61230a6a7a")
@@ -18145,7 +18145,7 @@
 		(at 38.1 76.2 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K23"
+		(property "Reference" "SW23"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "cfaec1d8-ee85-43eb-96f8-fb026ac4d887")
@@ -18845,7 +18845,7 @@
 		(descr "Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
 		(property "Reference" "SW26"
-			(at -4.7 -7.2 0)
+			(at 0 8 0)
 			(layer "F.SilkS")
 			(uuid "ada60af1-782f-4be1-9459-4a0718cafae1")
 			(effects
@@ -19220,7 +19220,7 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "8ff67551-36b9-4165-be2c-9bbc2f008e80")
+			(uuid "077501e3-1b1e-43f0-ba40-8435f846efac")
 		)
 		(pad "S1" thru_hole circle
 			(at 7 2.5)
@@ -19263,7 +19263,7 @@
 		(at 57.15 57.15 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K19"
+		(property "Reference" "SW19"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "f26de083-a841-4fad-b279-3714b594a6d9")
@@ -19962,7 +19962,7 @@
 		(at 76.2 -19.05 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K30"
+		(property "Reference" "SW30"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "d0d8e695-95c0-4ce5-9bba-eae9d2fbe5dc")
@@ -20661,7 +20661,7 @@
 		(at 76.2 76.2 180)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "K25"
+		(property "Reference" "SW25"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "09203330-9079-437e-b97a-aad344f18181")
@@ -21361,7 +21361,7 @@
 		(descr "Through hole straight socket strip, 1x22, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x22 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.77 0)
+			(at 0 56.11 0)
 			(layer "F.SilkS")
 			(uuid "284f0db0-51fd-43a0-9774-96e3af9cd5bf")
 			(effects
@@ -21372,7 +21372,7 @@
 			)
 		)
 		(property "Value" "esp32row1"
-			(at 0 56.11 0)
+			(at 0 -2.77 0)
 			(layer "F.Fab")
 			(uuid "7f29f90e-a2ed-45ad-870a-705f2b3e1359")
 			(effects
@@ -32940,20 +32940,20 @@
 		(uuid "dc37393f-e633-4ffb-a2a5-072b7bd69163")
 	)
 	(segment
-		(start 6.585 78.74)
-		(end 6.585 82.195)
+		(start -13.83 22.84)
+		(end -44.58 22.84)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "0dcb5116-fd83-4e92-a33b-598b25777c05")
+		(uuid "011f68f3-1253-4489-b286-8446b6879627")
 	)
 	(segment
-		(start -10.903 25.767)
-		(end -13.83 22.84)
+		(start -44.58 22.84)
+		(end -45.45 21.97)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "15f84f45-741a-47b2-b285-a06baea84d31")
+		(uuid "1196b684-4a9b-4680-ae4f-779de3fd6b1b")
 	)
 	(segment
 		(start 9.4 59.69)
@@ -32972,20 +32972,44 @@
 		(uuid "1f314aef-17d7-47a2-ae7b-8faa1a7dbe13")
 	)
 	(segment
-		(start 6.585 82.195)
-		(end 4.62 84.16)
+		(start -4.45358 85.599)
+		(end -10.903 79.14958)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "7f06b322-6782-4e4a-9091-62b211a1fc99")
+		(uuid "334d0416-d401-44a3-ba23-044ab11cddec")
 	)
 	(segment
-		(start -45.45 15.08)
-		(end -43 12.63)
+		(start -10.903 25.767)
+		(end -13.83 22.84)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "846e4b28-e512-4e43-909a-45c2ca079ae0")
+		(uuid "46f1a80b-ab7b-4833-aac1-8b7bbb7b602f")
+	)
+	(segment
+		(start 6.585 83.325)
+		(end 4.311 85.599)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 42)
+		(uuid "5ffa371a-e1da-421a-8a71-af6e1c861256")
+	)
+	(segment
+		(start 4.311 85.599)
+		(end -4.45358 85.599)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 42)
+		(uuid "83e77c14-ad12-4926-b7a0-dd87ff2355d3")
+	)
+	(segment
+		(start 6.585 78.74)
+		(end 6.585 83.325)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 42)
+		(uuid "868bb115-b331-40a2-a7ee-b4c9c8949b92")
 	)
 	(segment
 		(start 9.4 78.74)
@@ -32996,14 +33020,6 @@
 		(uuid "90d05635-70d8-4e23-9e37-b036c339b1de")
 	)
 	(segment
-		(start -10.903 79.14958)
-		(end -10.903 25.767)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 42)
-		(uuid "98efb41f-799d-4af8-b518-ff16bd22ef4a")
-	)
-	(segment
 		(start 9.4 21.59)
 		(end 6.585 21.59)
 		(width 0.4)
@@ -33012,28 +33028,20 @@
 		(uuid "babc3721-c550-4996-8c07-da76089c0953")
 	)
 	(segment
-		(start -13.83 22.84)
-		(end -44.58 22.84)
+		(start -45.45 15.08)
+		(end -43 12.63)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "bd781cea-e704-4018-83f2-49c54fd358ac")
+		(uuid "d9aaf32a-dca3-4acc-8ca3-d72ae0c50ab2")
 	)
 	(segment
-		(start -44.58 22.84)
-		(end -45.45 21.97)
+		(start -45.45 21.97)
+		(end -45.45 15.08)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "c00e0cf7-e97e-4431-8d44-61927196d371")
-	)
-	(segment
-		(start 4.62 84.16)
-		(end -5.89258 84.16)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 42)
-		(uuid "c516b6fb-8329-45bb-b770-7f0dcf5faeb7")
+		(uuid "dd7250c3-8f47-415e-9be4-233413f739e2")
 	)
 	(segment
 		(start 9.4 2.54)
@@ -33052,20 +33060,12 @@
 		(uuid "f51050f9-1091-4cbc-a67d-73f24d6cff40")
 	)
 	(segment
-		(start -45.45 21.97)
-		(end -45.45 15.08)
+		(start -10.903 79.14958)
+		(end -10.903 25.767)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "f5fba0aa-7d81-43ae-9eb4-d71542bc5b04")
-	)
-	(segment
-		(start -5.89258 84.16)
-		(end -10.903 79.14958)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 42)
-		(uuid "f9ede928-6e40-4c4b-8d53-2bae59855e80")
+		(uuid "f7f94e0c-666a-44e7-b838-cf79b60d6450")
 	)
 	(segment
 		(start 47.5 21.59)
